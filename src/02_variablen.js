@@ -37,7 +37,10 @@
 // console.log("Datentyp: " + typeof test); // Ausgabe Datentyp
 // console.log("-------------------");
 
-
+test = 2; // number
+console.log("Inhalt: " + test); // Ausgabe Inhalt
+console.log("Datentyp: " + typeof test); // Ausgabe Datentyp
+console.log("-------------------");
 
 // test = true; // boolean
 console.log("Datentyp: " + typeof test); // Ausgabe Datentyp
