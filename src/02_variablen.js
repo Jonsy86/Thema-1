@@ -46,4 +46,4 @@
 // console.log("Datentyp: " + typeof test); // Ausgabe Datentyp
 // console.log("-------------------")
 
-
+  
