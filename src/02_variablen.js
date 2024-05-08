@@ -22,3 +22,27 @@
 
 
 
+/*  
+    Wertzuweisung II + Datentypen 
+    JS ist ein untypisierte Sprache!
+*/
+
+let test;
+console.log("Inhalt: " + test); // Ausgabe Inhalt
+console.log("Datentyp: " + typeof test); // Ausgabe Datentyp
+console.log("-------------------");
+
+test = "hi"; // 'hi' string
+console.log("Inhalt: " + test); // Ausgabe Inhalt
+console.log("Datentyp: " + typeof test); // Ausgabe Datentyp
+console.log("-------------------");
+
+test = 2; // number
+console.log("Inhalt: " + test); // Ausgabe Inhalt
+console.log("Datentyp: " + typeof test); // Ausgabe Datentyp
+console.log("-------------------");
+
+test = true; // boolean
+console.log("Inhalt: " + test); // Ausgabe Inhalt
+console.log("Datentyp: " + typeof test); // Ausgabe Datentyp
+console.log("-------------------");
