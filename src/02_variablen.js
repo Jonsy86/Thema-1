@@ -44,5 +44,6 @@
 
 // // test = true; // boolean
 // console.log("Datentyp: " + typeof test); // Ausgabe Datentyp
-// console.log("Datentyp " + typeof test); // Ausgabe Datentyp)
 // console.log("-------------------")
+
+
