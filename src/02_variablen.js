@@ -46,19 +46,15 @@
 // console.log("Datentyp: " + typeof test); // Ausgabe Datentyp
 // console.log("-------------------")
 
-<<<<<<< HEAD
-  
-=======
 /* Variablen vs. Konstanten in JS */
 
-// Variable
-let test; // Variable : Deklaration
-test = "hi"; // Wertzuweisung (Initialisierung)
-test = "hello"; // Überschreiben
-console.log("Inhalt: " + test); // Ausgabe 
+// // Variable
+// let test; // Variable : Deklaration
+// test = "hi"; // Wertzuweisung (Initialisierung)
+// test = "hello"; // Überschreiben
+// console.log("Inhalt: " + test); // Ausgabe 
 
-// Konstante
-const test2 = "Hi!";  // Deklaration + Wertzuweisung gemeinsam !
-test2 = "hello"; // Laufzeitfehler !!
-console.log("Inhalt: " + test2); // Ausgabe 
->>>>>>> bfc4ac637a4fa6fccdff3a6cc7c197d6c5801e21
+// // Konstante
+// const test2 = "Hi!";  // Deklaration + Wertzuweisung gemeinsam !
+// test2 = "hello"; // Laufzeitfehler !!
+// console.log("Inhalt: " + test2); // Ausgabe 
