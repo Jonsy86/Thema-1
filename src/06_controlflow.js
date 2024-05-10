@@ -2,7 +2,7 @@
 
 // Deklaration + Assignment
 const ageJohn = 30;
-const ageMark = 25;
+const ageMark = 35;
 
 // Deklaration
 let isJohnOlder, isJohnEqual;
@@ -18,3 +18,10 @@ isJohnEqual = (ageJohn == ageMark);
  console.log("isJohnEqual: " + isJohnEqual);
  console.log("------------------");
 
+// if (false) //fake it!
+// if (isJohnOlder) // Verweis auf ein Testergebnis
+if(ageJohn > ageMark) // Test 
+
+{ // codeblock
+    console.log("John ist älter!");   
+}
