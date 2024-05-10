@@ -1,15 +1,15 @@
 // Entscheidungsstrukturen | control flow
 
 // Deklaration + Assignment
-// const ageJohn = 30;
-// const ageMark = 35;
+ const ageJohn = 32;
+ const ageMark = 30;
 
 // Deklaration
-// let isJohnOlder, isJohnEqual;
+ let isJohnOlder, isJohnEqual;
 
 // Test | Logische Aussage
-// isJohnOlder = (ageJohn > ageMark);
-// isJohnEqual = (ageJohn == ageMark);
+ isJohnOlder = (ageJohn > ageMark);
+ isJohnEqual = (ageJohn == ageMark);
 
 //  Ausgabe
 //  console.log("ageJohn: " + ageJohn);
@@ -40,16 +40,16 @@
 
 // IF - Else If
 
-// if (isJohnOlder) 
-// {
-//   console.log("John ist älter!")  
-// }
-// else if (isJohnEqual) 
-// {
-//  console.log("John ist gleich alt!")   
-// }
+ if (isJohnOlder) 
+ {
+   console.log("John ist älter!")  
+ }
+ else if (isJohnEqual) 
+ {
+  console.log("John ist gleich alt!")   
+ }
 
-// else 
-// {
-//    console.log("John ist jünger!") 
-// }
+ else 
+ {
+    console.log("John ist jünger!") 
+ }
