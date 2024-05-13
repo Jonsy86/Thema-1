@@ -48,21 +48,24 @@
 
 // outputNamesSRP("Maxine","Mützerich");
 
-// function outputNamesSRP(firstName, familyName) { // Parameter
+output(getString("Maxine","Mützerich"))
+
+ function getString(firstName, familyName) { // Parameter
 
 //     // 1. Funktionalität: string composing
-//     const GAP = " ";
-//     let outputStr = "Hallo, " + firstName + GAP + familyName + "!"
-
+     const GAP = " ";
+     let outputStr = "Hallo, " + firstName + GAP + familyName + "!"
+return outputStr
 //     // 2. Funktionalität: string output
-//     console.log(outputStr);
-// }
+     console.log(outputStr);
+ }
 
 
-output("hi");
-output(2);
-output(true);
-output(3);
+// output("hi");
+// output(2);
+// output(true);
+// output(3);
+
 
 function output(outputData) 
 {
