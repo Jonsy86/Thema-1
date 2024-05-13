@@ -31,15 +31,16 @@
 
 
 
-outputNames3("Maxine","Mützerich");
+// outputNames3("Maxine","Mützerich");
 
-const prompt = require('prompt-sync')({sigint: true});
-outputNames3(prompt("Vorname? :"),prompt("Nachname?:"))
+// const prompt = require('prompt-sync')({sigint: true});
+// outputNames3(prompt("Vorname? :"),prompt("Nachname?:"))
 
-function outputNames3(firstName, familyName) 
-{
-    console.log("Hallo, " + firstName + " " + familyName + "!")
-} 
+// function outputNames3(firstName, familyName) 
+// {
+//     console.log("Hallo, " + firstName + " " + familyName + "!")
+// } 
+
 
 
 
