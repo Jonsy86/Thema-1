@@ -41,7 +41,21 @@
 //     console.log("Hallo, " + firstName + " " + familyName + "!")
 // } 
 
+/***** Funktionen 03a *****/
+// 03a. Vorbereitung -Trennen der Funktionalitäten
+// Postulat: one function = one job (uncle Bob)
+// SRP single responsibility principle
 
+outputNamesSRP("Maxine","Mützerich");
+
+function outputNamesSRP(firstName, familyName) { // Parameter
+
+    // 1. Funktionalität: string composing
+    const GAP = " ";
+    let outputStr = "Hallo, " + firstName + GAP + familyName + "!"
+
+    // 2. Funktionalität: string output
+    console.log(outputStr);
 
 
 
