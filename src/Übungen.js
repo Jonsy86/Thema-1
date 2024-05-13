@@ -1,6 +1,6 @@
 const prompt = require('prompt-sync')({sigint: true});
 
-let artikel = prompt("welches Produkt suchen Sie");
+let artikel = prompt("welches Produkt suchen Sie?");
 
 switch (artikel) 
 {
@@ -15,6 +15,6 @@ switch (artikel)
     console.log("Preis: 7,99")
 
     default:
-    console.log("Produkt nicht im Sortiment enthalten!")
+    // console.log("Produkt nicht im Sortiment enthalten!")
 
 }
