@@ -56,6 +56,6 @@ function outputNamesSRP(firstName, familyName) { // Parameter
 
     // 2. Funktionalität: string output
     console.log(outputStr);
-
+}
 
 
