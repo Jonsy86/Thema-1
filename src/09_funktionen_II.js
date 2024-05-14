@@ -17,10 +17,25 @@
 
 
 
-// module: output | test:
-// output("hello");
-// output(2);
+// module: addition a + b | test:
+
+ output(add(2,2));
+ output(add(2,-2));
+
+
+//module: subtraction a - b  test:
+
+ function subtract(a,b) {
+	return a - b;
+}
+
+
+
+function add(a,b) {
+	return a + b;
+}
+
 function output(outputData) {
-	console.log(outputData);
+console.log(outputData)	
 }
   
