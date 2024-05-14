@@ -11,14 +11,6 @@
 */
 
 
-
-
-
-
-
-
-
-
 //module: subtraction a - b  test:
 
  function substract(a,b) {
