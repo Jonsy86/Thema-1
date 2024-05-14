@@ -58,5 +58,40 @@ console.log(Name + " " + "trinkt Wein")
         break;
 }
 
+Lösung von Herrn Schmidt:
+
+
+const prompt = require('prompt-sync')({sigint: true});
+const firstName = prompt("Bitte Namen eingeben: ");
+const age =  parseInt(prompt("Bitte Alter eingeben: ")); // "2" --> 2
+
+mapBeveragesToAge(firstName,age);
+
+
+function mapBeveragesToAge(firstName,age) {
+
+    switch (true) {
+        case (age >= 0) && (age <= 5) :
+            output(firstName + " trinkt Milch.");
+            break;
+        case (age >= 6) && (age <= 12):
+            output(firstName + " trinkt Saft.");
+            break;
+        case (age >= 13) && (age <= 17):
+            output(firstName + " trinkt Cola.");
+            break;
+        case (age >= 18) && (age <= 130):
+            output(firstName + " trinkt Wein.");
+            break;   
+        default:
+            output("Bitte Tee trinken!");   
+            break;
+    }
+    
+}
+
+function output(outputData) {
+    console.log(outputData);
+ }
 
 
