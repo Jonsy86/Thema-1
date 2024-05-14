@@ -17,23 +17,29 @@
 
 
 
-// module: addition a + b | test:
-
- output(add(2,2));
- output(add(2,-2));
 
 
 //module: subtraction a - b  test:
 
- function subtract(a,b) {
+ function substract(a,b) {
 	return a - b;
 }
 
+output(substract(3,2))
 
+
+// module: addition a + b | test:
+
+output(add(2,2));
+output(add(2,-2));
 
 function add(a,b) {
 	return a + b;
 }
+
+
+
+
 
 function output(outputData) {
 console.log(outputData)	
