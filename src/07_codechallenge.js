@@ -36,29 +36,29 @@ Alter 13-17 // Cola
 
 
 
-const prompt = require('prompt-sync')({sigint: true});
+// const prompt = require('prompt-sync')({sigint: true});
 
-const Name = prompt("Name?:");
-const age = parseInt(prompt("Alter?:"))
+// const Name = prompt("Name?:");
+// const age = parseInt(prompt("Alter?:"))
 
 
-switch (true) {
-    case (age >= 0) && (age <=5):
-     console.log(Name + " " + "trinkt Milch")   
-    break;
-    case (age >= 6) && (age <=12):
-    console.log(Name + " " + "trinkt Saft")   
-    break;
-    case (age >= 13) && (age <=17):
-    console.log(Name + " " + "trinkt Cola")
-    break;    
+// switch (true) {
+//     case (age >= 0) && (age <=5):
+//      console.log(Name + " " + "trinkt Milch")   
+//     break;
+//     case (age >= 6) && (age <=12):
+//     console.log(Name + " " + "trinkt Saft")   
+//     break;
+//     case (age >= 13) && (age <=17):
+//     console.log(Name + " " + "trinkt Cola")
+//     break;    
 
-    default: (age >=18)
-console.log(Name + " " + "trinkt Wein")
-        break;
-}
+//     default: (age >=18)
+// console.log(Name + " " + "trinkt Wein")
+//         break;
+// }
 
-Lösung von Herrn Schmidt:
+// Lösung von Herrn Schmidt:
 
 
 const prompt = require('prompt-sync')({sigint: true});
