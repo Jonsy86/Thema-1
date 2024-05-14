@@ -29,7 +29,7 @@ function add(a,b) {
 	return a + b;
 }
 
-// module: multiplication a * b |  test:
+// module: division a / b |  test:
 // output(divide(4,2));
 // output(divide(3,2));
 // output(divide(3,-2));
