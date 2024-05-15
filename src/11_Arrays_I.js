@@ -161,9 +161,16 @@ for (let i = 0; i < arr.length; i++)
 }
 
 
+    // 2. Variante: Struktur erzeugen + trimmen()
+    for (let i = 0; i < arr.length; i++)  // i = Schleifenindex
+    {
+        str += arr[i] + GAP; // Regel
+    }
+
+    return str.trim() + PUNCT;
 
 
-
+}
 
 
 
