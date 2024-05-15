@@ -144,21 +144,21 @@ hier: Verkettung eines Strings // Transponierung
       let str = "";
 
 
-for (let i = 0; i < arr.length; i++) 
-{
-    if (i == arr.length -1) {
+// for (let i = 0; i < arr.length; i++) 
+// {
+//     if (i == arr.length -1) {
       
-    str += arr[i] + PUNCT;  
-    } else {
-        str += arr[i] + GAP;  
-    }
+//     str += arr[i] + PUNCT;  
+//     } else {
+//         str += arr[i] + GAP;  
+//     }
      
     
-}
+// }
 
-    return str;
+//     return str;
       
-}
+// }
 
 
     // 2. Variante: Struktur erzeugen + trimmen()
