@@ -46,7 +46,7 @@ function getPunct(op) {
     }
 }
    
-}
+
 
 
 // Lösung von Herrn Schmidt
