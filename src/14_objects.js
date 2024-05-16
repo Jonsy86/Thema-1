@@ -1,6 +1,6 @@
 /***** Erinnerung: Arrays *******/
 
-let arr;
+// let arr;
 // arr = ["Ich","bin","Max"];
 // output(arr);
 // output(arr[0]);
@@ -63,20 +63,20 @@ const txt = person.sayHello() + " und verdiene " + person.salary[1] + " p.a."
 // deep - deeper - deepest
 // nested object {{{}}}
 
-let baikal = {
-                value: "10m",
-                deep:{
-                        deeper:{
-                            temperature:"4 Grad Ceslisus",
-                            deepest: "Das Licht - auf 1642m!"
-                        }
-                }
-            };
+// let baikal = {
+//                 value: "10m",
+//                 deep:{
+//                         deeper:{
+//                             temperature:"4 Grad Ceslisus",
+//                             deepest: "Das Licht - auf 1642m!"
+//                         }
+//                 }
+//             };
 
-output(baikal);
-output(baikal.value);
-output(baikal.deep.deeper.temperature);
-output(baikal.deep.deeper.deepest);
+// output(baikal);
+// output(baikal.value);
+// output(baikal.deep.deeper.temperature);
+// output(baikal.deep.deeper.deepest);
 
 
 
