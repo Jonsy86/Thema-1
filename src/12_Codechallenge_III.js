@@ -49,6 +49,12 @@ function getPunct(op) {
 }
 
 
+// Lösung von Herrn Schmidt
+
+
+
+
+
 
 // Modul: Ausgabe in Konsole : Test
 // output("hi"); 
